@@ -43,32 +43,6 @@ Once started:
 - **TextBlob** ✅ (General purpose sentiment analysis)
 - **Ensemble Scoring** ✅ (Combines both for better accuracy)
 
-### Temporarily Disabled:
-- **Transformer Models** ⚠️ (Due to Windows TensorFlow DLL issues)
-
-> **Note**: VADER + TextBlob provides excellent sentiment analysis for social media content without the complexity of TensorFlow on Windows.
-
-## 🎮 Testing the Application
-
-### 1. Test Backend Health
-```bash
-curl http://localhost:8000/api/v1/health
-```
-
-### 2. Test Sentiment Analysis
-```bash
-curl -X POST "http://localhost:8000/api/v1/analyze" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "keyword": "artificial intelligence",
-    "limit": 50,
-    "include_retweets": false
-  }'
-```
-
-### 3. Interactive API Testing
-Visit: http://localhost:8000/docs
-
 ## 📁 Project Structure
 
 ```
