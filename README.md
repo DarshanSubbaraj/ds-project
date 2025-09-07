@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-sentiment Analyzer: Completed, uses twitter API to collect the real time data analyze the sentiment of specific keywords
-stock_market: Still under development, uses yahoo finance library to analyze the data and predict the condition of stock
-=======
 # 🚀 AI-Powered Social Media Sentiment Analyzer
 
 A real-time sentiment analysis dashboard for social media content using Twitter API and advanced ML models. Built with FastAPI backend and React frontend.
